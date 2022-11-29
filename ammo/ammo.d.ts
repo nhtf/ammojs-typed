@@ -575,7 +575,7 @@ declare module Ammo {
     }
     class btCollisionConfiguration {
     }
-    class btDbvtBroadphase {
+    class btDbvtBroadphase extends btBroadphaseInterface {
         constructor();
         resetPool(dispatcher: btDispatcher): void;
     }
