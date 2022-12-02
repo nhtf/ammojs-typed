@@ -701,6 +701,9 @@ declare module Ammo {
     }
     class btSequentialImpulseConstraintSolver {
         constructor();
+        reset(): void;
+        setRandSeed(seed: number): void;
+        getRandSeed(): number;
     }
     class btConeTwistConstraint extends btTypedConstraint {
         constructor(rbA: btRigidBody, rbB: btRigidBody, rbAFrame: btTransform, rbBFrame: btTransform);
