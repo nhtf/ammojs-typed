@@ -699,7 +699,7 @@ declare module Ammo {
         setEquilibriumPoint(index: number): void;
         setEquilibriumPoint(): void;
     }
-    class btSequentialImpulseConstraintSolver {
+    class btSequentialImpulseConstraintSolver extends btConstraintSolver {
         constructor();
         reset(): void;
         setRandSeed(seed: number): void;

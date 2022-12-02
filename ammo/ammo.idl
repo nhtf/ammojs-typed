@@ -799,6 +799,7 @@ interface btSequentialImpulseConstraintSolver {
   void setRandSeed(unsigned long seed);
   unsigned long getRandSeed();
 };
+btSequentialImpulseConstraintSolver implements btConstraintSolver;
 
 interface btConeTwistConstraint {
   void btConeTwistConstraint([Ref] btRigidBody rbA, [Ref] btRigidBody rbB, [Ref] btTransform rbAFrame, [Ref] btTransform rbBFrame);
