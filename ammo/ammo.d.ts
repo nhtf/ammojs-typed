@@ -795,6 +795,8 @@ declare module Ammo {
         set_m_splitImpulsePenetrationThreshold(m_splitImpulsePenetrationThreshold: number): void;
         get_m_numIterations(): number;
         set_m_numIterations(m_numIterations: number): void;
+        get_m_solverMode(): number;
+        set_m_solverMode(m_solverMode: number): void;
     }
     class btDynamicsWorld extends btCollisionWorld {
         addAction(action: btActionInterface): void;

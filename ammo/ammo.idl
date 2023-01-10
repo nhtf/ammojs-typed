@@ -897,6 +897,7 @@ interface btContactSolverInfo {
   attribute boolean m_splitImpulse;
   attribute long m_splitImpulsePenetrationThreshold;
   attribute long m_numIterations;
+  attribute long m_solverMode;
 };
 
 interface btDynamicsWorld {
