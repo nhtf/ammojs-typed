@@ -2,7 +2,7 @@
   "name": "ammojs-typed",
   "version": "1.0.5",
   "description": "Ammo.js with type definitions",
-  "main": "ammo/ammo.js",
+  "main": "ammo/ammo.wasm.js",
   "types": "ammo/ammo.d.ts",
   "scripts": {
     "download:idl": "curl -L https://raw.githubusercontent.com/kripken/ammo.js/master/ammo.idl -o ./ammo/ammo.idl",
